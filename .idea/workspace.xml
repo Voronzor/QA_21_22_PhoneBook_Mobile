@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5282c7e3-b591-4c3e-b8c0-e0fa219bd29d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteContactTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/BaseScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screens/ContactListScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/ContactListScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewContactsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewContactsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AddNewContactsTests.createContactWithEmptyName.executor": "Run",
-    "Gradle.AddNewContactsTests.createNewContactSuccess.executor": "Run",
-    "Gradle.AddNewContactsTests.executor": "Run",
-    "Gradle.DeleteContactTests.executor": "Run",
-    "Gradle.LoginSecondTest.executor": "Run",
-    "Gradle.LoginSecondTest.loginWrongEmail.executor": "Run",
-    "Gradle.LoginTests.executor": "Run",
-    "Gradle.LoginTests.loginSuccessModel.executor": "Run",
-    "Gradle.LoginTests.loginWrongEmail.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Voronzor/Desktop/Projects GitHub/QA_21_22_PhoneBook_Mobile/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AddNewContactsTests.createContactWithEmptyName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddNewContactsTests.createNewContactSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AddNewContactsTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DeleteContactTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginSecondTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginSecondTest.loginWrongEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTests.loginSuccessModel.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoginTests.loginWrongEmail.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Voronzor/Desktop/Projects GitHub/QA_21_22_PhoneBook_Mobile/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.DeleteContactTests">
     <configuration name="AddNewContactsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
