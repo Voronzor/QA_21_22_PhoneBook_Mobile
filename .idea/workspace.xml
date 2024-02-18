@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5282c7e3-b591-4c3e-b8c0-e0fa219bd29d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/screens/AddNewContactScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewContactsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteContactTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screens/AuthentificationScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/AuthentificationScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/screens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/BaseScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/screens/ContactListScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screens/ContactListScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewContactsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewContactsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,7 @@
     "Gradle.AddNewContactsTests.createContactWithEmptyName.executor": "Run",
     "Gradle.AddNewContactsTests.createNewContactSuccess.executor": "Run",
     "Gradle.AddNewContactsTests.executor": "Run",
+    "Gradle.DeleteContactTests.executor": "Run",
     "Gradle.LoginSecondTest.executor": "Run",
     "Gradle.LoginSecondTest.loginWrongEmail.executor": "Run",
     "Gradle.LoginTests.executor": "Run",
@@ -62,7 +61,7 @@
     "onboarding.tips.debug.path": "C:/Users/Voronzor/Desktop/Projects GitHub/QA_21_22_PhoneBook_Mobile/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AddNewContactsTests.createContactWithEmptyName">
+  <component name="RunManager" selected="Gradle.DeleteContactTests">
     <configuration name="AddNewContactsTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,6 +134,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="DeleteContactTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.DeleteContactTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginSecondTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,37 +182,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.LoginTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteContactTests" />
+        <item itemvalue="Gradle.AddNewContactsTests" />
         <item itemvalue="Gradle.AddNewContactsTests.createContactWithEmptyName" />
         <item itemvalue="Gradle.AddNewContactsTests.createNewContactSuccess" />
-        <item itemvalue="Gradle.AddNewContactsTests" />
         <item itemvalue="Gradle.LoginSecondTest" />
-        <item itemvalue="Gradle.LoginTests" />
       </list>
     </recent_temporary>
   </component>

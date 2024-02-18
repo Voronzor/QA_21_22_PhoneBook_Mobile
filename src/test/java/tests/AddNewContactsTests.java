@@ -18,7 +18,8 @@ public class AddNewContactsTests extends AppiumConfig {
         new AuthentificationScreen(driver)
                 .fillLoginRegistrationForm(Auth.builder()
                         .email("vorronkovkirill@gmail.com").password("Leet1337!").build())
-                .submitLogin();
+                .submitLogin()
+                .isActivityTitleDisplayed("Contact list");
     }
     @Test
     public void createNewContactSuccess(){
